@@ -1,0 +1,148 @@
+.eighthSection {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 1400px;
+  position: relative;
+}
+
+.eighthSection__title {
+  font-size: 65px;
+  letter-spacing: 8px;
+  color: white;
+  height: 65px;
+  transform: rotate(270deg);
+  position: absolute;
+  top: 250px;
+  left: 0px;
+}
+
+.eighthSection__rightSide {
+  width: 1100px;
+  padding-left: 100px;
+  padding-top: 150px;
+}
+
+.eighthSection__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.eighthSection__info--title {
+  color: white;
+  font-size: 80px;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+
+.eighthSection__info--contents {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.eighthSection__info--contents,
+.eighthSection__links,
+.eighthSection__people--info,
+.eighthSection__people--name {
+  color: white;
+  opacity: 0.5;
+  padding-bottom: 25px;
+}
+
+.eighthSection__links {
+  text-decoration: underline;
+  line-height: 15px;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.eighthSection__info a {
+  text-decoration: underline;
+  color: white;
+  opacity: 0.5;
+}
+
+.eighthSection__links:hover {
+  text-decoration: underline;
+  color: white;
+  opacity: 1;
+}
+
+.eighthSection a:hover {
+  opacity: 1;
+}
+
+.eighthSection__people img {
+  width: 280px;
+}
+
+.rightSide-first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightSide-second {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eighthSection__people {
+  display: flex;
+  flex-direction: column;
+}
+
+.eighthSection__people span {
+  margin-left: 80px;
+}
+
+.eighthSection__people--name {
+  margin-top: 60px;
+}
+
+.rightSide-second .firstOne {
+  margin-top: 260px;
+}
+
+.rightSide-second .secondOne {
+  margin-top: 160px;
+  margin-left: 27px;
+}
+
+.rightSide-second .thirdOne {
+  margin-top: 90px;
+  transform: translateX(60px);
+}
+
+.eighthSection__people--name {
+  font-size: 28px;
+  color: white;
+  opacity: 1;
+}
+
+.eighthSection__people--info {
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 19px;
+}
+
+.eighthSection__rightSide .outcomes-btn {
+  position: absolute;
+  right: 100px;
+  bottom: 160px;
+  color: white;
+  opacity: 0.5;
+  width: 350px;
+  height: 45px;
+  border: 1px solid white;
+  text-align: center;
+  padding-top: 15px;
+  letter-spacing: 2px;
+}
+
+.eighthSection__rightSide .outcomes-btn:hover {
+  box-shadow: 3px 3px 0 rgb(255, 255, 255);
+  transform: translate(-3px, -3px);
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}

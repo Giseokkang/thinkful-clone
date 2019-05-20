@@ -1,0 +1,165 @@
+header {
+  background-color: black;
+  color: white;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.navBar a {
+  color: white;
+}
+
+.navBar__home-btn {
+  padding-left: 30px;
+}
+
+.navBar__items .navBar__items--btn {
+  margin-right: 20px;
+  font-size: 14px;
+}
+.navBar__items .navBar__items--btn:hover {
+  text-decoration: underline;
+}
+
+.whiteDecoration:hover {
+  margin: 0;
+  padding: 10px 15px;
+  background-color: white;
+  color: black;
+}
+
+.navBar__items .getStarted-btn {
+  border: 1px solid white;
+  padding: 10px 20px;
+}
+
+.navBar__items .getStarted-btn:hover {
+  box-shadow: 3px 3px 0 rgb(255, 255, 255);
+  transform: translate(-3px, -3px);
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.navInfo {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 50px 40px 100px 50px;
+}
+
+.navInfo .navInfo__leftSide {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 20px;
+  width: 450px;
+}
+
+.navInfo__leftSide--changingText {
+  width: 350px;
+  font-size: 90px;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  30% {
+    width: 100%;
+  }
+  50% {
+    width: 100%;
+    text-decoration: underline;
+  }
+  60% {
+    width: 100%;
+    text-decoration: none;
+  }
+  80% {
+    width: 0%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+.navInfo__leftSide .changingText {
+  overflow: hidden;
+  border-right: 0.05em solid white;
+  white-space: nowrap;
+  letter-spacing: 0.1em;
+  animation: typing 3.5s steps(30, end) infinite,
+    blink-caret 0.2s step-start infinite;
+}
+
+.navInfo__leftSide--text {
+  padding-top: 35px;
+  font-size: 18px;
+  width: 70%;
+}
+
+.graduate-img {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.graduate-img__name {
+  font-size: 45px;
+  transform: rotate(270deg);
+  position: absolute;
+  top: 40px;
+  left: 250px;
+}
+
+.graduate-img__info {
+  position: absolute;
+  bottom: 30px;
+  left: 310px;
+}
+
+.graduate-img__info--up {
+  font-size: 17px;
+}
+
+.graduate-img__info--down {
+  font-size: 22px;
+}
+
+.navInfo__rightSide {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navInfo__arrow-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navInfo__arrow-btn i {
+  font-size: 30px;
+  margin: 30px 0px 30px 200px;
+  opacity: 0.4;
+  color: white;
+}
+
+.navInfo__arrow-btn :hover {
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in-out;
+}

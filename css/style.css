@@ -1,0 +1,34 @@
+@import "reset.css";
+@import "header.css";
+@import "secondsection.css";
+@import "thirdsection.css";
+@import "fourthsection.css";
+@import "fifthsection.css";
+@import "sixthsection.css";
+@import "seventhsection.css";
+@import "eighthsection.css";
+@import "ninthsection.css";
+@import "tenthsection.css";
+@import "lastsection.css";
+@import "footer.css";
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+html {
+  width: 100%;
+}
+.titleFont {
+  padding-bottom: 20px;
+}
+
+.infoFont {
+  line-height: 26px;
+}

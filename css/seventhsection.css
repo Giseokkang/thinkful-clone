@@ -1,0 +1,17 @@
+.seventhSection {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;
+}
+
+.seventhSection__companyLogo {
+  margin-top: 25px;
+  margin-bottom: 140px;
+}
+
+.seventhSection__companyLogo img {
+  padding: 30px;
+}

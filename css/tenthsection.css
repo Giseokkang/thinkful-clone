@@ -1,0 +1,86 @@
+.tenthSection {
+  background-color: #f3f3f3;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tenthSection__leftSide {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+
+.tenthSection__leftSide--title {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.tenthSection__leftSide--info {
+  font-size: 12px;
+  line-height: 15px;
+  opacity: 0.6;
+  padding-top: 10px;
+}
+.tenthSection__textBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.tenthSection__textBox span {
+  font-size: 15px;
+}
+
+.tenthSection__textBox--alert {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 17px;
+  padding-bottom: 10px;
+}
+
+.secondSection__textBox--alertText {
+  color: red;
+  margin-right: 110px;
+}
+
+.emailBox {
+  padding: 10px 10px;
+}
+
+.tenthSection__textBox input[type="submit"] {
+  width: 135px;
+  height: 40px;
+  margin-left: 10px;
+  color: black;
+  letter-spacing: 2px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.tenthSection__textBox input[type="submit"]:hover {
+  box-shadow: 3px 3px 0 rgb(0, 0, 0);
+  transform: translate(-3px, -3px);
+  outline: none;
+  transition: box-shadow, transform 0.3s ease-in-out;
+}
+
+.tenthSection__textBox input[type="submit"]:focus {
+  outline: none;
+}
+
+.tenthSection__textBox input[type="text"] {
+  width: 400px;
+  height: 40px;
+}
+
+.tenthSection__textBox input[type="text"] {
+  color: rgb(145, 142, 142);
+  font-size: 14px;
+}
+
+.tenthSection__textBox input[type="text"]:focus {
+  border: 1.5px solid black;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}

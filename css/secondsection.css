@@ -1,0 +1,79 @@
+.secondSection {
+  background-color: #f3f3f3;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.secondSection__title {
+  font-size: 38px;
+  padding-bottom: 30px;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+.secondSection__info {
+  font-size: 15px;
+  padding-bottom: 15px;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.secondSection__textBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.secondSection__textBox-alert {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 17px;
+}
+
+.secondSection__textBox--alertText {
+  color: red;
+}
+
+.emailBox {
+  padding: 10px 10px;
+}
+
+.secondSection__textBox--submit {
+  width: 135px;
+  height: 40px;
+  margin-left: 10px;
+  color: black;
+  letter-spacing: 2px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.secondSection__textBox--submit:hover {
+  box-shadow: 3px 3px 0 rgb(0, 0, 0);
+  transform: translate(-3px, -3px);
+  outline: none;
+  transition: box-shadow, transform 0.3s ease-in-out;
+}
+
+.secondSection__textBox--submit:focus {
+  outline: none;
+}
+
+.secondSection__textBox--content {
+  width: 400px;
+  height: 40px;
+}
+
+.secondSection__textBox--content {
+  color: rgb(145, 142, 142);
+  font-size: 14px;
+}
+
+.secondSection__textBox--content:focus {
+  border: 1.5px solid black;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}

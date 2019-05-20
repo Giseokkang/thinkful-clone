@@ -1,0 +1,45 @@
+.sixthSection {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.sixthSection__leftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 440px;
+  height: 320px;
+  margin-top: 20px;
+}
+
+.sixthSection__leftSide--title {
+  line-height: 47px;
+}
+
+.sixthSection__leftSide--info {
+  width: 420px;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+
+.sixthSection__leftSide input {
+  border: 1px solid black;
+  padding: 12px 10px;
+  margin-top: 25px;
+  letter-spacing: 2.5px;
+  font-size: 14px;
+  font-weight: 100;
+  color: black;
+  width: 100%;
+  text-align: center;
+}
+
+.sixthSection__leftSide input:hover {
+  box-shadow: 3px 3px 0 rgb(0, 0, 0);
+  transform: translate(-3px, -3px);
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
